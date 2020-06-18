@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fabio Rocha Jimenez Vieira - homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS
+================================================== -->
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="css/flexslider.css" />
+<link rel="stylesheet" href="css/custom-styles.css">
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/style-ie.css"/>
+<![endif]--> 
+
+<!-- Favicons
+================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- JS
+================================================== -->
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.custom.js"></script>
+<script type="text/javascript">
+     $(window).load(function(){
+
+    $('.flexslider').flexslider({
+        animation: "slide",
+        slideshow: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+    });  
+});
+</script>
+
+</head>
+
+<body>
+	<div class="color-bar-1"></div>
+    <div class="color-bar-2 color-bg"></div>
+    
+    <div class="container main-container">
+    
+      <div class="row header"><!-- Begin Header -->
+      
+        <!-- Logo
+        ================================================== -->
+        <div class="span5 logo">
+        	
+            <h5>Fabio Rocha Jimenez Vieira</h5>
+        </div>
+        
+        <!-- Main Navigation
+        ================================================== -->
+        <div class="span7 navigation">
+            <div class="navbar hidden-phone">
+            
+            <ul class="nav">
+             <li><a href="index.htm">home</a></li>
+            <li><a href="Contact.htm">Contact</a></li>
+
+            </ul>
+           
+            </div>
+
+             <!-- Mobile Nav
+            ================================================== -->
+            <form action="#" id="mobile-nav" class="visible-phone">
+                <div class="mobile-nav-select">
+                <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                    <option value="">Navigate...</option>
+                    <option value="index.htm">Home</option>
+                        <option value="index.htm">- Full Page</option>
+                        <option value="index-gallery.htm">- Gallery Only</option>
+                        <option value="index-slider.htm">- Slider Only</option>
+                    <option value="features.htm">Features</option>
+                    <option value="page-full-width.htm">Pages</option>
+                        <option value="page-full-width.htm">- Full Width</option>
+                        <option value="page-right-sidebar.htm">- Right Sidebar</option>
+                        <option value="page-left-sidebar.htm">- Left Sidebar</option>
+                        <option value="page-double-sidebar.htm">- Double Sidebar</option>
+                    <option value="gallery-4col.htm">Gallery</option>
+                        <option value="gallery-3col.htm">- 3 Column</option>
+                        <option value="gallery-4col.htm">- 4 Column</option>
+                        <option value="gallery-6col.htm">- 6 Column</option>
+                        <option value="gallery-4col-circle.htm">- Gallery 4 Col Round</option>
+                        <option value="gallery-single.htm">- Gallery Single</option>
+                    <option value="blog-style1.htm">Blog</option>
+                        <option value="blog-style1.htm">- Blog Style 1</option>
+                        <option value="blog-style2.htm">- Blog Style 2</option>
+                        <option value="blog-style3.htm">- Blog Style 3</option>
+                        <option value="blog-style4.htm">- Blog Style 4</option>
+                        <option value="blog-single.htm">- Blog Single</option>
+                    <option value="page-contact.htm">Contact</option>
+                </select>
+                </div>
+                </form>
+            
+        </div>
+        
+      </div><!-- End Header -->
+     
+    <!-- Page Content
+    ================================================== --> 
+    
+    <!-- Title Header -->
+    <div class="row">
+        <div class="span12">
+            <h2>Development</h2>
+
+<p class="lead"> Skills</p>
+
+<blockquote>
+<p><b>Programming </b> : C++, Java, Python et R.
+</p>
+</blockquote>
+
+<blockquote>
+<p><b>Databases </b> : Postgresql, MySQL, Oracle et MS SQL Server.
+</p>
+</blockquote>
+
+<blockquote>
+<p><b>Web </b> : HTML5, javascript et CSS.
+</p>
+</blockquote>
+
+<blockquote>
+<p><b>Machine learning </b> : Neural Networks, Support Vector Machines, Random Forests, Inductic logic programming, evolutionary algorithms, clustering et probalistic models. .
+</p>
+</blockquote>
+
+<blockquote>
+<p><b>Combinatorial optimization </b> : Linear programming, graph algorithms et optimisation multiobjectif.
+</p>
+</blockquote>
+
+<blockquote>
+<p><b>Grid computing </b> : OpenMPI, pthread et GPU.
+</p>
+</blockquote>
+
+
+<blockquote>
+<p><b>High performance computing</b> : SGE, Condor, OAR et OpenMOLE.
+</p>
+</blockquote>
+
+<blockquote>
+<p><b>Bioinformatics</b> : Sequence annotation (function, taxon et gene onthology), remote homology 
+detection, metagenomics analysis, HiSeq et MiSeq analysis
+
+</p>
+</blockquote>
+
+<p class="lead">  Services </p>
+<blockquote>
+<p> Galaxy Ansible Module Developer : 
+<a href="https://github.com/galaxyproject/ansible-galaxy/graphs/contributors"> ansible-galaxy</a>,
+<a href="https://github.com/galaxyproject/ansible-galaxy-extras/graphs/contributors"> ansible-galaxy-extras </a>,
+<a href="https://github.com/galaxyproject/ansible-galaxy-os/graphs/contributors"> ansible-galaxy-os </a>,
+<a href="https://github.com/fabiorjvieira/ansible-galaxy-instance"> ansible-galaxy-instance </a>
+</p>
+</blockquote>
+
+<blockquote>
+<p> Administrateur/Developpeur of 
+ Plant-and-diatom-genomics 
+<a href="https://github.com/Plant-and-diatom-genomics-IBENS-Paris">GitHub</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p> Administrateur/Developpeur of 
+Open Science Framework
+<a href="https://osf.io/ks7yw">Ancient DNA</a> and <a href="https://osf.io/964yt">eDAF</a> 
+</p>
+</blockquote>
+
+<blockquote>
+<p> Advisor of 
+<a href="https://www.mendeley.com/profiles/fabio-vieira6/">Mendeley</a>
+</p>
+</blockquote>
+
+
+<p class="lead"> Responsabilites</p>
+<blockquote>
+<p>Management of computing resources of the Plant and Algae Genomics laborator and the bioinformatics platform of IBENS Paris.</p>
+</blockquote>
+
+<blockquote>
+<p>Creation, organization and administration of the GitLab dedicated to the Genomics of Plants and Algae. </p>
+</blockquote>
+
+<blockquote>
+<p>Drafting of proposals for the allocation of computing resources.</p>
+</blockquote>
+
+
+
+
+
+
+            <!-- Carousel
+            ================================================== -->
+            
+            
+        </div> 
+    </div>
+    
+    </div> <!-- End Container -->
+
+    <!-- Footer Area
+        ================================================== -->
+
+	<div class="footer-container"><!-- Begin Footer -->
+    	<div class="container">
+        	<div class="row footer-row">
+                	<div class="span3 footer-col">
+<a href="https://twitter.com/fabiorjvieira" class="social-icon twitter"></a>
+                	</div>
+              	</div>
+        </div>
+    	</div><!-- End Footer -->
+    
+    <!-- Scroll to Top -->  
+    <div id="toTop" class="hidden-phone hidden-tablet">Back to Top</div>
+    
+</body>
+</html>
